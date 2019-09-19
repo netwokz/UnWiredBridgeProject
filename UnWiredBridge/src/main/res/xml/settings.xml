@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="true">
+    <!--<PreferenceCategory android:title="@string/settings">-->
+    <EditTextPreference
+        android:key="@string/pref_port_key"
+        android:title="@string/port"
+        android:summary="@string/port_summary"
+        android:defaultValue="@string/default_port"
+        android:inputType="number" />
+
+    <CheckBoxPreference
+        android:defaultValue="@string/default_notif"
+        android:key="@string/pref_notif_key"
+        android:summary="@string/server_noti"
+        android:title="@string/notification"
+        android:checked="false" />
+
+    <CheckBoxPreference
+        android:defaultValue="@string/default_wifi_on"
+        android:key="@string/pref_wifi_on_key"
+        android:summary="@string/server_wifi_on"
+        android:title="@string/wifi_on"
+        android:checked="false" />
+
+    <CheckBoxPreference
+        android:defaultValue="@string/default_wakelock"
+        android:key="@string/pref_wakelock_key"
+        android:summary="@string/wakelock_subtitle"
+        android:title="@string/wakelock_title"
+        android:checked="false" />
+
+    <CheckBoxPreference
+        android:defaultValue="@string/default_boot_up"
+        android:key="@string/pref_boot_up"
+        android:summary="@string/boot_up_summary"
+        android:title="@string/boot_up_title"
+        android:checked="false" />
+    <CheckBoxPreference
+        android:defaultValue="@string/default_boot_up"
+        android:key="@string/pref_boot_up_auto_connect"
+        android:summary="@string/boot_up_auto_connect_summary"
+        android:title="@string/boot_up_auto_connect_title"
+        android:dependency="@string/pref_boot_up"
+        android:checked="false" />
+
+    <!--</PreferenceCategory>-->
+</PreferenceScreen>

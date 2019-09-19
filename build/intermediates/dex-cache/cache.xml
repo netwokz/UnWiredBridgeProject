@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-0fe028d791c9a45999429bcba79018542da991b4.jar" />
+    </item>
+    <item
+        jar="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\pre-dexed\debug\classes-bf8dfec4f3b4fbea08275837ea118b96d936bb2e.jar" />
+    </item>
+    <item
+        jar="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\libs\RootTools_2.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e8205169fe8479771238b5b48e15e7d16e7cc56a">
+        <dex dex="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\pre-dexed\debug\RootTools_2.6-9c6539d248c0d35271c8856ede70242642b792c9.jar" />
+    </item>
+    <item
+        jar="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\pre-dexed\debug\classes-9d294fff82b37cd12a54a514ce7f1ec4322b9c68.jar" />
+    </item>
+    <item
+        jar="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-cbae47003f693839b125cf6a4cd636c2a362a7ed.jar" />
+    </item>
+    <item
+        jar="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\exploded-aar\com.github.navasmdc\MaterialDesign\1.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="87405405e403de68f4057757b8a2e8de02bd65d0">
+        <dex dex="D:\android\android-studio\AndroidStudioProjects\UnWiredBridgeProject\UnWiredBridge\build\intermediates\pre-dexed\debug\classes-e1411f4c140bb340e82aec6857ebd62abb94b1bc.jar" />
+    </item>
+
+</items>

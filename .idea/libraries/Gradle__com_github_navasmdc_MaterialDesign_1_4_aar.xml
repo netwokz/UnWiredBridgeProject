@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.navasmdc:MaterialDesign:1.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2396d13fd914ee3c496e8dee883bb806/MaterialDesign-1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2396d13fd914ee3c496e8dee883bb806/MaterialDesign-1.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.navasmdc/MaterialDesign/1.4/84d700d694f104f982e58656898aa58db8f8b06b/MaterialDesign-1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.navasmdc/MaterialDesign/1.4/dce78536200a79054216d7d26a7c9becca70cd56/MaterialDesign-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
