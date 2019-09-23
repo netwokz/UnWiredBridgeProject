@@ -11,14 +11,12 @@ import com.netwokz.unwiredbridge.R;
  */
 public class SettingsFragment extends PreferenceFragment {
 
-    private Context mContext;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.settings);
 
-        mContext = this.getActivity();
+        Context mContext = this.getActivity();
         mContext.setTheme(R.style.PreferenceScreen);
     }
 }

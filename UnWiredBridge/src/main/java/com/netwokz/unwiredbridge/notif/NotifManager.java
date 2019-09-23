@@ -37,14 +37,13 @@ public class NotifManager {
         Notification mNotification;
 
         if (adbEnabled) {
-            mNotifBuilder = new Notification.Builder(ctx);
+            mNotifBuilder = new Notification.Builder(ctx, "ADB");
             mNotifBuilder.setSmallIcon(R.drawable.ic_launcher_logo);
             mNotifBuilder.setOngoing(true);
             mNotifBuilder.setAutoCancel(false);
             mNotifBuilder.setWhen(System.currentTimeMillis());
             mNotifBuilder.setContentTitle(ctx.getResources().getString(R.string.notif_title_on));
             mNotifBuilder.setContentText(WiFi.getIp(ctx));
-            mNotifBuilder.setPriority(Notification.PRIORITY_MAX);
 
             Intent notificationIntent = new Intent(ctx, MainActivity.class);
             notificationIntent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
@@ -57,7 +56,7 @@ public class NotifManager {
             mNotifBuilder.addAction(android.R.drawable.ic_media_play, STOP_ADB, cancelPendingIntent);
             mNotification = mNotifBuilder.build();
         } else {
-            mNotifBuilder = new Notification.Builder(ctx);
+            mNotifBuilder = new Notification.Builder(ctx, "ADB");
             mNotifBuilder.setSmallIcon(R.drawable.ic_launcher_logo);
             if (persistNotif) {
                 mNotifBuilder.setOngoing(true);
@@ -65,7 +64,6 @@ public class NotifManager {
             }
             mNotifBuilder.setWhen(System.currentTimeMillis());
             mNotifBuilder.setContentTitle(ctx.getResources().getString(R.string.notif_title_off));
-            mNotifBuilder.setPriority(Notification.PRIORITY_MAX);
 
             Intent notificationIntent = new Intent(ctx, MainActivity.class);
             notificationIntent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);

@@ -12,7 +12,7 @@ import com.netwokz.unwiredbridge.R;
  * Created by Steve on 9/9/13.
  */
 public class ScreenLock {
-    private static final String TAG_WAKELOCK = "ADB_wakeLock";
+    private static final String TAG_WAKELOCK = "ADB_wakeLock:";
     private static WakeLock lock;
 
     public static void start(Context context) {

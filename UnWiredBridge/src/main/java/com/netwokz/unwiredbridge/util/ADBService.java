@@ -16,10 +16,8 @@ import com.netwokz.unwiredbridge.notif.NotifManager;
  */
 public class ADBService extends Service {
 
-    private static Context mContext;
     SharedPreferences mPrefs;
     boolean mEnableAtBoot = false;
-
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -28,7 +26,7 @@ public class ADBService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        mContext = getApplicationContext();
+        Context mContext = getApplicationContext();
         mPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
         mEnableAtBoot = mPrefs.getBoolean(mContext.getResources().getString(R.string.pref_boot_up_auto_connect), mEnableAtBoot);
 
